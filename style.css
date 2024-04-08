@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  padding-top: 40px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: scroll;
+  background: linear-gradient(
+    to top,
+    rgba(87, 29, 248, 0.8),
+    rgba(231, 98, 21, 0.8)
+  );
+  padding-top: 20px;
+  gap: 20px;
+}
+.nav{
+    height: 2vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav i{
+
+    font-size: 40px;
+}
+.card {
+  justify-content: center;
+
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  border-radius: 15px;
+  border: 2.5px solid rgb(128, 117, 117);
+  margin-bottom: 10px;
+}
+
+.card img {
+  height: 65%;
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+  padding: 12px;
+}
+.card h1 {
+  font-size: 33px;
+  font-weight: 400;
+  text-align: center;
+}
+.card h5 {
+  width: 100%;
+  background-color: #c9e4fd;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: red;
+  margin-top: 5px;
+}
+.card button {
+  cursor: pointer;
+  padding: 9px 17px;
+  border-radius: 7px;
+  background-color: #46b1ff;
+  color: #f8f6f6;
+  margin-top: 28px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+.card #remove {
+  background-color: #c9e4fd;
+  color: crimson;
+}
+.card h1 p {
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(128, 128, 219);
+}
+.card button:hover {
+  background-color: #2ea4f9;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    flex-direction: column;
+    
+  }
+  
+}
